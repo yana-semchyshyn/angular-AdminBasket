@@ -1,0 +1,33 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+i{
+    font-size: 45px;
+    color: #4c5055;
+}
+i:hover{
+    color: black;
+}
+td, th, input{
+  text-align: center;
+}
+td{
+    vertical-align: middle;
+    font-size: 20px;
+}
+.count{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.deleteModal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button{
+        margin-right: 5px;
+        width: 130px;
+        height: 50px;
+    }
+}
